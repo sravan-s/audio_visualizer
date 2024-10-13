@@ -1,0 +1,9 @@
+[package]
+name = "audio-visualizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29.1"
+egui = "0.29.1"
+symphonia = {version="0.5.4", features = ["all"]}
